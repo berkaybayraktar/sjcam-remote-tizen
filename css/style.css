@@ -1,0 +1,77 @@
+body {
+    width: 100%;
+    -webkit-user-select: none;
+}
+
+.li-text-sub {
+    color: dimgray;
+    font-size: small;
+}
+
+.popup-handler {
+    display: block;
+    width: 70px;
+    height: 70px;
+    position: fixed;
+    top: 50%;
+    right: 0;
+    color: transparent;
+    background-color: #a4a4a4;
+    transform: translate(0, -50%);
+    -webkit-mask-image: url(../images/b_more_option.png);
+    -webkit-mask-repeat: no-repeat;
+    -webkit-mask-position: 46px 20px;
+}
+
+.delete-icon:before {
+    position: absolute;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-mask-image: url(../images/delete_icon.png);
+    -webkit-mask-size: 100% 100%;
+    background-color: rgb(8, 8, 8);
+    -webkit-mask-repeat: no-repeat;
+}
+
+.hidden {
+    display: none;
+}
+
+#alert-popup .ui-popup-content {
+    text-align: center;
+    background-color: transparent;
+}
+
+#alert-popup .ui-popup-footer {
+    margin-top: -6rem;
+}
+
+header.ui-header {
+    height: auto;
+}
+
+.ui-btn:enabled:active:hover {
+    background-color: transparent;
+}
+
+pre {
+    font-size: 0.4em;
+}
+
+.ui-header .ui-title {
+	padding-top: 0px;
+}
+
+.ui-btn-red {
+	background: -webkit-radial-gradient(center,circle cover,rgba(255,0,0,0.9) 50%,transparent 50%) !important;
+    background-size: 300% 840% !important;
+    background-position: 50% 16.5% !important;
+}
+.ui-btn-red:AFTER {
+	background: -webkit-radial-gradient(center,circle cover,rgba(255,0,0,0.9) 50%,transparent 50%) !important;
+    background-size: 300% 840% !important;
+    background-position: 50% 16.5% !important;
+}

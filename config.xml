@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<widget xmlns="http://www.w3.org/ns/widgets" xmlns:tizen="http://tizen.org/ns/widgets" id="http://berkay.me/sjcam-remote" version="1.0.0" viewmodes="maximized">
+    <access origin="https://www.tizen.org" subdomains="true"></access>
+    <access origin="http://192.168.1.254" subdomains="false"></access>
+    <tizen:application id="jSuk3JchHq.SJCAMRemote" package="jSuk3JchHq" required_version="2.3.2"/>
+    <author href="http://berkay.me" email="info@berkay.me">Berkay Bayraktar</author>
+    <content src="index.html"/>
+    <feature name="http://tizen.org/feature/screen.size.all"/>
+    <feature name="tizen.org/feature/network.internet"/>
+    <feature name="tizen.org/feature/network.wifi"/>
+    <icon src="icon.png"/>
+    <name>SJCAM Remote</name>
+    <tizen:privilege name="http://tizen.org/privilege/application.launch"/>
+    <tizen:privilege name="http://tizen.org/privilege/setting"/>
+    <tizen:privilege name="http://tizen.org/privilege/download"/>
+    <tizen:privilege name="http://tizen.org/privilege/internet"/>
+    <tizen:profile name="wearable"/>
+    <tizen:setting background-support="disable" encryption="disable" hwkey-event="enable"/>
+</widget>
